@@ -1,11 +1,33 @@
-﻿
+﻿@model CoffeeShop.Models.UserRegistration
+
 @{
     ViewData["Title"] = "Register";
 }
 
-<h1>Registration</h1>
+<h1>Registration Completion</h1>
 
-<p>Thank you @ViewData["name"], you have been successfully registered.</p>
+<p>Thank you, @Model.FirstName @Model.LastName you have been successfully registered.</p>
 
-<p>Click <a href="/Result">here</a> to log in with your new registration!</p>
+<h3>Information</h3>
+
+<p>
+    <table>
+        <tr>
+            <th>@Html.LabelFor(m => m.Email): </th>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Phone): </th>
+            <td>@Model.Phone</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.CoffeePreference): </th>
+            <td>@Model.CoffeePreference</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Newsletter): </th>
+            <td>@Model.Newsletter</td>
+        </tr>
+    </table>
+</p>
 

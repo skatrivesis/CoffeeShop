@@ -1,0 +1,8 @@
+﻿body {
+}
+
+table, th, td{
+    width: 50%;
+    border-collapse: collapse;
+}
+

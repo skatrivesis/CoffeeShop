@@ -1,18 +1,103 @@
-﻿
+﻿@model CoffeeShop.Models.UserRegistration
+
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Register</h1>
 
-<form action="Registration/Register" method="post">
+@{
+    if (ViewData["errorMsg"] != null)
+    {
+        <p>@ViewData["errorMsg"]</p>
+    }
+}
 
-    First Name: <input type="text" name="fname" maxlength="20" /><br />
-    Last Name: <input type="text" name="lname" maxlength="20" /><br />
-    Email: <input type="email" name="email" /><br />
-    Phone: <input type="number" name="phone" /><br />
-    Password: <input type="text" name="password" /><br />
 
-    <input type="submit" value="Register!" />
-
+<form asp-controller="Registration" asp-action="Register" method="post">
+    <table>
+        <tr>
+            <th>@Html.LabelFor(m => m.FirstName)</th>
+            <td>@Html.EditorFor(m => m.FirstName)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.LastName)</th>
+            <td>@Html.EditorFor(m => m.LastName)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Email)</th>
+            <td>@Html.EditorFor(m => m.Email)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Phone)</th>
+            <td>@Html.EditorFor(m => m.Phone)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Password)</th>
+            <td>@Html.PasswordFor(m => m.Password)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.CoffeePreference)</th>
+            <td>
+                <select asp-for="CoffeePreference">
+                    @{
+                        string[] type = MenuItems.CoffeeType;
+                        foreach (string t in type)
+                        {
+                            <option>@t</option>
+                        }
+                    }
+                </select><br />
+            </td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Newsletter)</th>
+            <td>
+                <select asp-for="Newsletter">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select><br />
+            </td>
+        </tr>
+        <tr>
+            <th><input type="submit" value="Register!" /></th>
+        </tr>
+    </table>
 </form>
+
+@*<br />
+    @Html.LabelFor(m => m.LastName): @Html.EditorFor(m => m.LastName)<br />
+    @Html.LabelFor(m => m.Email): @Html.EditorFor(m => m.Email)<br />
+    @Html.LabelFor(m => m.Phone): @Html.EditorFor(m => m.Phone)<br />
+    @Html.LabelFor(m => m.Password): @Html.PasswordFor(m => m.Password)<br />
+
+    @Html.LabelFor(m => m.CoffeePreference)
+    <select asp-for="CoffeePreference">
+        @{
+            string[] type = MenuItems.CoffeeType;
+            foreach (string t in type)
+            {
+                <option>@t</option>
+            }
+        }
+    </select><br />
+
+    @Html.LabelFor(m => m.Newsletter)
+    <select asp-for="Newsletter">
+        <option>Yes</option>
+        <option>No</option>
+    </select><br />
+
+    <input type="submit" value="Register!" />*@
+
+@*<form action="Registration/Register" method="post">
+
+        First Name: <input type="text" name="fname" maxlength="20" /><br />
+        Last Name: <input type="text" name="lname" maxlength="20" /><br />
+        Email: <input type="email" name="email" /><br />
+        Phone: <input type="number" name="phone" /><br />
+        Password: <input type="text" name="password" /><br />
+
+        <input type="submit" value="Register!" />
+
+    </form>*@

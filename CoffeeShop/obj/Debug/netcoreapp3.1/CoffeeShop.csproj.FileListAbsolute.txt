@@ -108,4 +108,4 @@ C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\Coffe
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Registration\Register.cshtml.g.cs
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Registration\Index.cshtml.g.cs
-C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Result\Index.cshtml.g.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Menu.cshtml.g.cs
