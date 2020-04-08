@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    var Products = (IEnumerable<Product>)ViewData["Products"];
+}
+
+<h1>Coffee Menu</h1>
+<ul>
+    @foreach (Product p in Products)
+    {
+        <li>@p.Name $@p.Price</li>
+    }
+</ul>
+
