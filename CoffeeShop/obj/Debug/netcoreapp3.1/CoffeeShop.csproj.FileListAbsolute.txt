@@ -117,3 +117,4 @@ C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\Coffe
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.csproj.CopyComplete
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.dll
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.pdb
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.csprojAssemblyReference.cache
