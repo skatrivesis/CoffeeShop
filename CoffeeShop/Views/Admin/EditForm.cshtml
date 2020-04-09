@@ -1,0 +1,35 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h1>Edit Coffee</h1>
+
+<form asp-controller="Admin" asp-action="Edit" method="post">
+    <table>
+        <tr>
+            <th>@Html.LabelFor(m => m.Name)</th>
+            <td>@Html.EditorFor(m => m.Name)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Price)</th>
+            <td>@Html.EditorFor(m => m.Price)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Description)</th>
+            <td>@Html.TextAreaFor(m => m.Description)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Category)</th>
+            <td>@Html.EditorFor(m => m.Category)</td>
+        </tr>
+        <tr>
+            <th>@Html.LabelFor(m => m.Origin)</th>
+            <td>@Html.EditorFor(m => m.Origin)</td>
+        </tr>
+        <tr>
+            <th><input type="submit" value="Save Changes" class="btn btn-dark" /></th>
+        </tr>
+    </table>
+</form>

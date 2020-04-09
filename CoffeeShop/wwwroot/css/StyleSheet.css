@@ -1,8 +1,9 @@
-﻿body {
-}
-
-table, th, td{
+﻿table, th, td{
     width: 50%;
     border-collapse: collapse;
+}
+
+body {
+    background: lightblue url("img_tree.gif") no-repeat fixed center;
 }
 

@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Admin Index";
+    List<Product> Products = (List<Product>)ViewData["Products"];
+}
+
+<h1>Admin Menu</h1>
+
+
+<table>
+    <tr>
+        <a href="/Admin/AddForm">Add</a>
+    </tr>
+    @foreach (Product p in Products)
+    {
+        <tr>
+            <td>
+                @p.Name @p.Price.ToString("C")
+            </td>
+            <td>
+                <a href="/Admin/EditForm/@p.Id">Edit</a>
+                <a href="/Admin/Delete/@p.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
