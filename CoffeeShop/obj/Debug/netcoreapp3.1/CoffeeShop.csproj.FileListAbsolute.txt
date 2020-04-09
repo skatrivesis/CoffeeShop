@@ -99,12 +99,9 @@ C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\Coffe
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.TagHelpers.input.cache
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.TagHelpers.output.cache
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.RazorCoreGenerate.cache
-C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Menu.cshtml.g.cs
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Detail.cshtml.g.cs
-C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
-C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Registration\Index.cshtml.g.cs
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Registration\Register.cshtml.g.cs
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -117,7 +114,6 @@ C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\Coffe
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.csproj.CopyComplete
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.dll
 C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.pdb
-C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\CoffeeShop.csprojAssemblyReference.cache
 C:\Temp\CoffeeShop\CoffeeShop\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Temp\CoffeeShop\CoffeeShop\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Temp\CoffeeShop\CoffeeShop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -243,3 +239,11 @@ C:\Temp\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Produc
 C:\Temp\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Registration\RegistrationIndex.cshtml.g.cs
 C:\Temp\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AddForm.cshtml.g.cs
 C:\Temp\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditForm.cshtml.g.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AddForm.cshtml.g.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminIndex.cshtml.g.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditForm.cshtml.g.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\HomeIndex.cshtml.g.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductIndex.cshtml.g.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\GrandCircus\Labs\CoffeeShop\CoffeeShop\obj\Debug\netcoreapp3.1\Razor\Views\Registration\RegistrationIndex.cshtml.g.cs

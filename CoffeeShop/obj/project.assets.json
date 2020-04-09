@@ -6512,23 +6512,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\skatrivesis\\.nuget\\packages\\": {},
+    "C:\\Users\\skatrivesis-\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+      "projectUniqueName": "C:\\Users\\skatrivesis\\OneDrive - Knex\\Documents\\GrandCircus\\Labs\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
       "projectName": "CoffeeShop",
-      "projectPath": "C:\\Temp\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
-      "packagesPath": "C:\\Users\\skatrivesis\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\CoffeeShop\\CoffeeShop\\obj\\",
+      "projectPath": "C:\\Users\\skatrivesis\\OneDrive - Knex\\Documents\\GrandCircus\\Labs\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+      "packagesPath": "C:\\Users\\skatrivesis-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\skatrivesis\\OneDrive - Knex\\Documents\\GrandCircus\\Labs\\CoffeeShop\\CoffeeShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\skatrivesis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\skatrivesis-\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
